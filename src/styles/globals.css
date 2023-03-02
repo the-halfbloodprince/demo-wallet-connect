@@ -86,6 +86,7 @@ body {
 }
 
 body {
+  font-family: 'Bebas Neue';
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -104,4 +105,12 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.good {
+  color: greenyellow;
+}
+
+.bad {
+  color: red
 }

@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -32,6 +32,61 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+}
+
+.button {
+  cursor: pointer;
+  font-family: 'Audiowide';
+  padding: 1.3rem 4rem;
+  border-radius: 16px;
+  font-size: 2rem;
+  outline: none;
+  background: white;
+  color: black;
+  box-shadow: 0 0;
+  transition: all .5s ease;
+  /* font-weight: 800; */
+}
+
+.button:hover {
+  box-shadow: lime 16px 16px;
+  transform: translate(-8px, -8px);
+}
+
+.install {
+  font-family: 'Audiowide';
+  padding: 1.3rem 4rem;
+  border-radius: 16px;
+  font-size: 2rem;
+  outline: none;
+  background: transparent;
+  border: red solid 2px;
+  color: white;
+  box-shadow: 0 0;
+  transition: all .5s ease;
+  /* font-size: 5rem; */
+  /* color: red; */
+}
+
+.install:hover {
+  box-shadow: white 16px 16px;
+  transform: translate(-8px, -8px);
+}
+
+.account {
+  font-size: 3rem;
+}
+
+.accountAddr {
+  transition: all .3s ease;
+}
+
+.accountAddr:hover {
+  color: lime;
+}
+
+.dim {
+  color: #777;
 }
 
 .code {
